@@ -1,5 +1,7 @@
 <?php 
-
+// Include this file to your index file.
+// Create a Telegram bot and get the tokenID + ChatId 'that's enough to run this function :)
+// Have fun !
 function tNotifier($token, $chatid , $errormessage = "Please enter a message"){
     //Make simple form
     echo '<form method="POST">';
